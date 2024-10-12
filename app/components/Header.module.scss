@@ -1,0 +1,125 @@
+.wrapper {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .banner-header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  
+    a {
+      color: #fff;
+      text-decoration: underline;
+  
+      &:hover {
+        color: #f39c12;
+      }
+    }
+  }
+  
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 48px;
+  }
+  
+  .logo-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+  
+    a {
+      color: #000;
+      text-decoration: none;
+  
+      &:hover {
+        color: #db3434;
+      }
+    }
+  }
+
+  .header-link{
+    margin-left: 12px;
+  }
+
+  .header-link:hover{
+    opacity: 0.6;
+  }
+  
+  
+  .search {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  
+    input {
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+  
+    .search-icon {
+      color: #000;
+      font-size: 1.25rem;
+  
+      &:hover {
+        color: #3498db;
+      }
+    }
+  }
+  
+  .action {
+    display: flex;
+    gap: 1rem;
+  
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem;
+      border-radius: 50%;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+  
+      svg {
+        font-size: 1.5rem;
+        color: #000;
+  
+        &:hover {
+          color: #3498db;
+        }
+      }
+    }
+  
+    .heart-icon {
+      color: #e74c3c;
+  
+      &:hover {
+        color: #c0392b;
+      }
+    }
+  
+    .cart-icon {
+      color: #2ecc71;
+  
+      &:hover {
+        color: #27ae60;
+      }
+    }
+  
+    .user-icon {
+      color: #3498db;
+  
+      &:hover {
+        color: #2980b9;
+      }
+    }
+  }
+  
