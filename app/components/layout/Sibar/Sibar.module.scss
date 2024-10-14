@@ -1,0 +1,19 @@
+.wrapper{
+    height: 384px;
+    width: 210px;
+    margin: 40px 0 0 136px;
+}
+.sibar-item{
+    padding: 9px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+}
+
+.sibar-icon{
+    font-size: 1rem;
+}
