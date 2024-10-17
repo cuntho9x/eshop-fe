@@ -8,7 +8,7 @@ import ProductCard from "../../component/ProductList/ProductList";
 // add product
 const products = [
     {
-        image: '/images/gamepad.png',
+        image: '/image/avatar.JPG',
         name: 'HAVIT HV-G92 Gamepad',
         discount: 40,
         currentPrice: 120,
@@ -93,7 +93,7 @@ const FlashSale: React.FC = () => {
                 {products.map((product, index) => (
                     <ProductCard key={index} product={product} />
                 ))}
-            </div>  
+            </div>
 
             <div className={styles['viewBtn']}>
                  <button className={styles['viewAllBtn']}>View All Products</button>
