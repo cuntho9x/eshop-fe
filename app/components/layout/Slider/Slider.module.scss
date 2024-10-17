@@ -1,0 +1,45 @@
+.slider{
+    margin-left:67px ;
+    width: 100%;
+    height: 354px;
+    background-color: var(--black);
+
+    .content {
+        margin: 52px 0 40px 52px;
+        text-align: left;
+        color: var(--white);
+    
+        h1 {
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        .icon-apple{
+            margin-right: 16px;
+            font-size: 3rem;
+        }
+    
+        h2 {
+            
+            font-size:  3rem;
+            margin: 10px 0;
+        }
+    
+        .shopNow {
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+
+            a:hover {
+                  color: #f39c12;
+                }
+              
+            .icon-next{
+                margin-left: 12px;
+            }
+        }
+
+    }
+}

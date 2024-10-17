@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --primary:#fe3c55;
+  --primary:#ff4c3b;
   --black: #000;
   --text-color: #161823;
   --white: #fff;
@@ -25,6 +25,24 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+/* phan heading cua moi page */
+.heading{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  
+  .subject{
+    width: 20px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--primary);
+    margin-right: 20px;
+  }
+  .sub {
+    color:var(--primary) ;
   }
 }
 
