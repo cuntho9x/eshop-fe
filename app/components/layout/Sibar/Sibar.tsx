@@ -2,7 +2,7 @@
 import styles from './Sibar.module.scss'
 import Link from 'next/link'
 import '@fortawesome/fontawesome-svg-core/styles.css'; 
-import '../../../lib/fontawesome'; 
+import '../../../../lib/fontawesome'; 
 import { faChevronRight} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 

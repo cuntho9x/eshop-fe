@@ -6,6 +6,8 @@
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
   
     .discount {
         position: absolute;
@@ -94,5 +96,8 @@
 
 .card:hover .addToCartBtn{
     display: block;
+}
+.card:hover {
+    transform: scale(1.05);
 }
   

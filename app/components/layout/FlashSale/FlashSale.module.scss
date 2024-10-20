@@ -1,6 +1,5 @@
 .flashSale {
-    padding: 20px;
-    // background-color: #f5f5f5;
+    margin: 80px 0 80px;
   
     .header {
       align-items: center;
@@ -63,19 +62,30 @@
           }
         }
 
-        .backnext-icon{
+        .backnext-icon {
           display: flex;
-          justify-content: space-between;
           align-items: center;
-
-
-          .backnext-btn{
-            height: 46px;
-            width: 50px;
-            font-size: 24px;
+  
+          .backnext-btn {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            cursor: pointer;
             border-radius: 50%;
-            background-color:#e7e7e7;
-            margin-left: 12px;
+            margin: 0 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  
+            &:hover {
+              background-color: #f0f0f0;
+            }
+  
+            .back-icon,
+            .next-icon {
+              font-size: 16px;
+              color: #333;
+            }
           }
         }
         
@@ -104,6 +114,10 @@
         margin-top: 20px;
         height: 55px;
         width: 233px;
+
+        &:hover {
+          opacity: 0.7;
+        }
         
       }
     }

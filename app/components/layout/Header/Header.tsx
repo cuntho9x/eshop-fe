@@ -5,14 +5,8 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faHeart, faShoppingCart, faUser,faShoppingBag, faXmark, faStar, faSignOut } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css'; // Import CSS thủ công
-import '../../../lib/fontawesome'; // Import file cấu hình Font Awesome
-import styles from './Header.module.scss'; // Import SCSS
-
-
-
-
-// Định nghĩa kiểu dl cho user-avatar
-
+import '../../../../lib/fontawesome'; // Import file cấu hình Font Awesome
+import styles from './Header.module.scss'; 
 
 
 const Header: React.FC = () => {

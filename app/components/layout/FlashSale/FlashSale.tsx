@@ -8,8 +8,8 @@ import ProductCard from "../../component/ProductList/ProductList";
 // add product
 const products = [
     {
-        image: '/images/gamepad.png',
-        name: 'HAVIT HV-G92 Gamepad',
+        image: '/image/maxresdefault.jpg',
+        name: 'Iphone 15 promax',
         discount: 40,
         currentPrice: 120,
         originalPrice: 160,
@@ -17,8 +17,8 @@ const products = [
         reviews: 88,
     },
     {
-      image: '/images/keyboard.png',
-      name: 'AK-900 Wired Keyboard',
+      image: '/image/ip16promaxx.jpg',
+      name: 'Iphone 16 promax',
       discount: 35,
       currentPrice: 960,
       originalPrice: 1160,
@@ -26,7 +26,7 @@ const products = [
       reviews: 75,
     },
     {
-      image: '/images/monitor.png',
+      image: '/image/screen.png',
       name: 'IPS LCD Gaming Monitor',
       discount: 30,
       currentPrice: 370,
@@ -35,7 +35,7 @@ const products = [
       reviews: 99,
     },
     {
-      image: '/images/chair.png',
+      image: '/image/chair.jpg',
       name: 'S-Series Comfort Chair',
       discount: 25,
       currentPrice: 375,

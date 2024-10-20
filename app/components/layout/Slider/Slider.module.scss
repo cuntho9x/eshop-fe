@@ -1,13 +1,23 @@
 .slider{
+    position: relative;
     margin-left:67px ;
     width: 100%;
     height: 354px;
     background-color: var(--black);
 
+    .slider-img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
     .content {
+        position: relative;
         margin: 52px 0 40px 52px;
         text-align: left;
         color: var(--white);
+        z-index: 2;
     
         h1 {
             font-size: 1rem;
