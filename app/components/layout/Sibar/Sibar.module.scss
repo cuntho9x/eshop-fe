@@ -4,16 +4,20 @@
     
 }
 .sibar-item{
-    padding: 9px 0;
+    padding: 9px 7px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: transform 0.2s ease-in;
     
     &:hover{
         background-color: rgba(0, 0, 0, 0.1);
+        color: var(--primary);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 }
 
 .sibar-icon{
     font-size: 1rem;
+
 }

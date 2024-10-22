@@ -9,16 +9,6 @@
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 
   
-    .discount {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        background-color: var(--primary);
-        color: var(--white);
-        padding: 5px;
-        border-radius: 5px;
-    }
-  
     .image {
         background-color: #857979;
         width: 100%;
@@ -58,18 +48,6 @@
         margin-bottom: 10px;
     }
   
-    .addToCartBtn {
-        display: none;
-        position: absolute;
-        width: 100%;
-        background-color: black;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-        left: 0;
-        top: 58%;
-    }
   
     .iconContainer {
         position: absolute;
@@ -87,7 +65,6 @@
             cursor: pointer;
             justify-content: center;
             align-items: center;
-
 
             &:hover{
                 color: var(--primary);
