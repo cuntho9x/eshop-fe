@@ -79,40 +79,43 @@ const Header: React.FC = () => {
           </button>
         </div>
 
-        {/* Icon */}
-        <div className={styles.action}>
-          <button aria-label="Wishlist">
-            <FontAwesomeIcon icon={faHeart} className={styles['heart-icon']} />
-          </button>
+          {/* Login or not */}
+          <div className={styles['action']}>
+            {/* Icon */}
+            <button aria-label="Wishlist">
+              <FontAwesomeIcon icon={faHeart} className={styles['heart-icon']} />
+            </button>
 
-          <button aria-label="Cart">
-            <FontAwesomeIcon icon={faShoppingCart} className={styles['cart-icon']} />
-          </button>
+            <button aria-label="Cart">
+              <FontAwesomeIcon icon={faShoppingCart} className={styles['cart-icon']} />
+            </button>
 
-        {/* User */}
-          <div className={styles['user']}>
+          {/* User */}
+            <div className={styles['user']}>
 
-            <Image 
-              src='/image/avatar.JPG' 
-              className={styles['user-avatar']} 
-              alt='Ngo Duc Thang'
-              width={150} 
-              height={150}
-            />
+              <Image 
+                src='/image/avatar.JPG' 
+                className={styles['user-avatar']} 
+                alt='Ngo Duc Thang'
+                width={150} 
+                height={150}
+              />
 
-            <ul className={styles['user-menu']}>
-              {userMenu.map((item, index) => (
-                <li key={index}>
-                  <Link href={item.to}>
-                    {item.icon}
-                    <span>{item.title}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+              <ul className={styles['user-menu']}>
+                {userMenu.map((item, index) => (
+                  <li key={index}>
+                    <Link href={item.to}>
+                      {item.icon}
+                      <span>{item.title}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              
+            </div>
+
           </div>
-          
-        </div>
+
       </div>
     </header>
   );
