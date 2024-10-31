@@ -3,7 +3,7 @@ import styles from './FlashSale.module.scss'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faArrowLeft} from "@fortawesome/free-solid-svg-icons";
-import ProductCard from "../../component/ProductList/ProductList";
+import ProductCard from "../../component/SaleProductList/SaleProductList";
 
 // add product
 const products = [

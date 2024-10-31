@@ -1,0 +1,97 @@
+// components/Footer.module.scss
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: left;
+    
+    .container {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 136px;
+  
+      .section {
+        flex: 1 1 200px;
+        margin: 15px;
+  
+        h3 {
+          font-size: 1.4rem;
+          margin-bottom: 10px;
+        }
+  
+        p, address {
+          font-size: 1rem;
+          margin: 5px 0;
+        }
+  
+        form {
+          display: flex;
+          border: solid 1px var(--white);
+          border-radius: 3px ;
+          width: 190px;
+
+
+          input {
+            width: 165px;
+            padding: 5px;
+            background-color: var(--black);
+            outline: none;
+          }
+          button {
+            padding: 5px;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 0 5px 5px 0;
+          }
+        }
+  
+        ul {
+          list-style: none;
+          padding: 0;
+  
+          li {
+            margin: 5px 0;
+  
+            a {
+              color: #fff;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+  
+        .appLinks {
+          display: flex;
+          gap: 10px;
+          
+          img {
+            width: 100px;
+            cursor: pointer;
+          }
+        }
+  
+        .socialLinks {
+          display: flex;
+          gap: 15px;
+          margin-top: 10px;
+  
+          a {
+            color: #fff;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  
+    .copyright {
+      text-align: center;
+      font-size: 0.8rem;
+      margin-top: 20px;
+      border-top: 1px solid #333;
+      padding-top: 10px;
+    }
+  }
+  
